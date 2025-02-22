@@ -1,0 +1,94 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Xin chào", "Chào", "Hi", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Geni xin chào", "Geni rất vui gặp lại bạn", "Chào bạn, Geni có thể giúp gì?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is Simplilearn?"],
+            "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform"],
+            "context": [""]
+        },
+        {
+            "tag": "friends",
+            "patterns": ["Thuần", "thuần"],
+            "responses": ["Nó là thằng mập ngu"],
+            "context": [""]
+        },
+        {
+            "tag": "Intel_i3",
+            "patterns": ["i3", "I3"],
+            "responses": ["CPU I3-10100, CPU I3-10300, CPU I3-12100, CPU I3-13100"],
+            "context": [""]
+        },
+        {
+            "tag": "Intel_i5",
+            "patterns": ["i5", "I5"],
+            "responses": ["CPU I5-12400, CPU I5-12400F, CPU I5-13400, CPU I5-13400F"],
+            "context": [""]
+        },
+        {
+            "tag": "Intel_i7",
+            "patterns": ["i7", "I7"],
+            "responses": ["CPU I7-12700, CPU I7-12700K, CPU I7-13700, CPU I7-13700K"],
+            "context": [""]
+        },
+        {
+            "tag": "Intel_i9",
+            "patterns": ["i9", "I9"],
+            "responses": ["CPU I9-12900, CPU I9-12900K, CPU I9-13900, CPU I9-13900K"],
+            "context": [""]
+        },
+        {
+            "tag": "Intel_pentium",
+            "patterns": ["pentium"],
+            "responses": ["Pentium G6400, Pentium G6500, Pentium G7400"],
+            "context": [""]
+        },
+        {
+            "tag": "AMD_ryzen_3",
+            "patterns": ["ryzen 3", "Ryzen 3"],
+            "responses": ["Ryzen 3 3100, Ryzen 3 3200G, Ryzen 3 3300X"],
+            "context": [""]
+        },
+        {
+            "tag": "AMD_ryzen_5",
+            "patterns": ["ryzen 5", "Ryzen 5"],
+            "responses": ["Ryzen 5 3600, Ryzen 5 5600X, Ryzen 5 5600G"],
+            "context": [""]
+        },
+        {
+            "tag": "AMD_ryzen_7",
+            "patterns": ["ryzen 7", "Ryzen 7"],
+            "responses": ["Ryzen 7 3700X, Ryzen 7 5800X, Ryzen 7 5800G"],
+            "context": [""]
+        },
+        {
+            "tag": "AMD_ryzen_9",
+            "patterns": ["ryzen 9", "Ryzen 9"],
+            "responses": ["Ryzen 9 3900X, Ryzen 9 5900X, Ryzen 9 5950X"],
+            "context": [""]
+        },
+        {
+            "tag": "AMD_fx",
+            "patterns": ["fx"],
+            "responses": ["AMD FX-6300, AMD FX-8320, AMD FX-8350"],
+            "context": [""]
+        }
+    ]
+}
